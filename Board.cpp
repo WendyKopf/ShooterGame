@@ -17,6 +17,3 @@ public:
 
 };
 
-
-
-int main(){}

@@ -36,16 +36,3 @@ class Player
 
 };
 
-int main () {
-
-	Player newPlayer;
-
-	newPlayer.setPos(3,4);
-	newPlayer.numBullets =5;
-
-	cout << newPlayer.xPos << " , " << newPlayer.yPos << endl;
-	
-
-
-
-}
