@@ -8,5 +8,7 @@ public:
 	int sizey;
 
 	void setBoard (int x, int y);
+
+	void printXY ();
 };
 
