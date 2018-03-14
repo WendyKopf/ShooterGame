@@ -11,12 +11,17 @@ using namespace std;
 
 int main(){
 
+    Player myPlayer;
+    myPlayer.getNumBullets();
+
     Board newBoard;
     newBoard.sizex = 0;
     newBoard.sizey = 0;
     newBoard.setBoard(10,10);
+
+
     
-    for (int i = 0; i < newBoard.sizex;i ++)
+   /* for (int i = 0; i < newBoard.sizex;i ++)
     {
 
     	for (int j =0; j < newBoard.sizey ; j++)
@@ -25,7 +30,7 @@ int main(){
         	cout << "-*-" ;
         }
         cout << endl;
-    }
+    } */
 
 }
 

@@ -5,10 +5,17 @@ using namespace std;
 
 
 
-        //Member variables
-
-
         //Member functions
+
+        Player::Player()
+        {
+            numBullets =5;
+        }
+
+        void Player::getNumBullets()
+        {
+            cout << numBullets <<endl;
+        }
 
     	void Player::setPos( int x, int y)
     	{
